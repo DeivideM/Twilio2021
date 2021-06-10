@@ -18,7 +18,7 @@ namespace Twilio2021
             //Twilio.Types.PhoneNumber: número que você precisa configurar no twilio
             //to: pra quem você deseja enviar a mensagem
             var message = MessageResource.Create(
-                body: "Testando envio de mensagem com o twilio.",
+                body: "Testando envio de mensagem com o Twilio.",
                 from: new Twilio.Types.PhoneNumber("+SeuNumeroTwilio"),
                 statusCallback: new Uri("http://postb.in/1234abcd"),
                 to: new Twilio.Types.PhoneNumber("+NumeroQueDesejaEnviarMensagem")
